@@ -12,29 +12,38 @@
     
     <main>
         <!-- <h1>Sunny</h1> -->
-        <div class="loadbutton">
+        <div id="parent">
+            <div class="load-button-container" style="flex-grow: 1;">
+                <div class="loadbutton">
             
-            <button onclick="loaddata()" id="load">Load Data</button>
-            <button onclick="reloaddata()" id="reload">reload data</button>
+                    <button onclick="loaddata()" id="load">Load Data</button>
+                    <button onclick="reloaddata()" id="reload">reload data</button>
+                </div>
+            </div>
+            <div class="table-container" style="flex-grow: 1;">
+                <div id="data">
+                    <table id="datatable">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Middlename</th>
+                                <th>lastname</th>
+                                <th>email</th>
+                                <th>phone</th>
+                                <th>role</th>
+                                <th>address</th>
+                                <th>action</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        
+                    </table>
+                </div>
+            </div>
         </div>
-        <div id="data">
-            <table id="datatable">
-                <thead>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Middlename</th>
-                        <th>lastname</th>
-                        <th>email</th>
-                        <th>phone</th>
-                        <th>role</th>
-                        <th>address</th>
-                        <th>action</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-                
-            </table>
-        </div>
+
+        
+        
     </main>
 
     <footer></footer>

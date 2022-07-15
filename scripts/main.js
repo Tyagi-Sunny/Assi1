@@ -20,6 +20,25 @@ var data=[
         id:2
     },
     {
+        firstname:"Meghna",
+        middlename:"NA",
+        lastname:"kashyap",
+        email:"meghna.kashyap@sourcefuse.com",
+        phone:"7834086997",
+        role:"HR Recruiter",
+        address:"Mohali",
+        id:3
+    },{
+        firstname:"Samarpan",
+        middlename:"NA",
+        lastname:"Bhattacharya",
+        email:"samarpan.bhattacharya@sourcefuse.com",
+        phone:"9999909854",
+        role:"Principal Architect",
+        address:"Mohali",
+        id:4
+    },
+    {
         firstname:"Shanu",
         middlename:"NA",
         lastname:"Tyagi",
@@ -27,7 +46,7 @@ var data=[
         phone:"9773649995",
         role:"Snr. Tech. Head",
         address:"Mohali",
-        id:3
+        id:5
     }
 ]
 
